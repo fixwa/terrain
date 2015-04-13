@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Terrain\Http\Controllers;
 
 class HomeController extends Controller {
 

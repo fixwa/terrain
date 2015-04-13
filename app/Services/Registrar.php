@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace Terrain\Services;
 
-use App\User;
+use Terrain\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 

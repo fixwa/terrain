@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace Terrain\Events;
 
 abstract class Event {
 
