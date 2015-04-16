@@ -2,6 +2,7 @@
 
 use View;
 use Illuminate\Support\ServiceProvider;
+use Terrain\Http\ViewComposers\LandsComposer;
 
 class ComposerServiceProvider extends ServiceProvider {
 
@@ -13,7 +14,7 @@ class ComposerServiceProvider extends ServiceProvider {
     public function boot()
     {
         // Using class based composers...
-        View::composer('welcome', 'Terrain\Http\ViewComposers\ProfileComposer');
+        View::composer('_shared.lands-map', LandsComposer::class);
 
         // Using Closure based composers...
         View::composer('dashboard', function($view)
