@@ -145,6 +145,7 @@ return [
 		'Terrain\Providers\ConfigServiceProvider',
 		'Terrain\Providers\EventServiceProvider',
 		'Terrain\Providers\RouteServiceProvider',
+        'Terrain\Providers\ComposerServiceProvider',
 
 	],
 
